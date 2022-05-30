@@ -32,7 +32,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id='date']  input").doubleClick().sendKeys(Keys.BACK_SPACE);
 
-        String replanMeetingDate = DataGenerator.generateDate(3);
+        String replanMeetingDate = DataGenerator.generateDate(5);
 
         $("[data-test-id='date']  input").setValue(replanMeetingDate);
         $(".grid-col button").click();
